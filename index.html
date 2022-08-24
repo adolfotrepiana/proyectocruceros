@@ -1,37 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Template</title>
-    <link rel="stylesheet" href="Style.css">
-</head>
-<body>
-    <header>
-        <h1>Cruceros Nuevo</h1>
-    </header>
-    <main>
-        <h2>Partes de un crucero</h2>
-        <section>
-            <h3>Piletas</h3>
-            <img src="https://dam.ngenespanol.com/wp-content/uploads/2019/04/cruceros-Disney-miami.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatibus nihil nobis inventore. Officia, quisquam commodi fugit sunt recusandae debitis? Eum corrupti libero eligendi ducimus recusandae animi pariatur, obcaecati voluptas.</p>
-            <hr>
-        </section>
-        <section>
-            <h3>Teatros</h3>
-            <img src="https://noticiasdecruceros.com/wp-content/uploads/2015/11/MSC-Poesia-Teatro-Carlo-Felice-I-800x532.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatibus nihil nobis inventore. Officia, quisquam commodi fugit sunt recusandae debitis? Eum corrupti libero eligendi ducimus recusandae animi pariatur, obcaecati voluptas.
-            </p>
-            <hr>
-        </section>
-        <section>
-            <h3>Deportes</h3>
-            <img src="data:image/jpeg;base64,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" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatibus nihil nobis inventore. Officia, quisquam commodi fugit sunt recusandae debitis? Eum corrupti libero eligendi ducimus recusandae animi pariatur, obcaecati voluptas.
-            </p>
-        </section>
-    </main>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web Template</title>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Cruceros Nuevo</h1>
+        </header>
+        <main>
+            <h2>Partes de un crucero</h2>
+            <section>
+                <h3>Piletas</h3>
+                <img
+                    src="https://dam.ngenespanol.com/wp-content/uploads/2019/04/cruceros-Disney-miami.png"
+                    alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Alias voluptatibus nihil nobis inventore. Officia, quisquam
+                    commodi fugit sunt recusandae debitis? Eum corrupti libero
+                    eligendi ducimus recusandae animi pariatur, obcaecati
+                    voluptas.</p>
+                <hr>
+            </section>
+            <section>
+                <h3>Teatros</h3>
+                <img
+                    src="https://noticiasdecruceros.com/wp-content/uploads/2015/11/MSC-Poesia-Teatro-Carlo-Felice-I-800x532.jpg"
+                    alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Alias voluptatibus nihil nobis inventore. Officia, quisquam
+                    commodi fugit sunt recusandae debitis? Eum corrupti libero
+                    eligendi ducimus recusandae animi pariatur, obcaecati
+                    voluptas.
+                </p>
+                <hr>
+            </section>
+            <section>
+                <h3>Deportes</h3>
+                <img
+                    src="https://www.solocruceros.com/blog/wp-content/uploads/2019/11/royal-caribbean-escalada.jpg"
+                    alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Alias voluptatibus nihil nobis inventore. Officia, quisquam
+                    commodi fugit sunt recusandae debitis? Eum corrupti libero
+                    eligendi ducimus recusandae animi pariatur, obcaecati
+                    voluptas.
+                </p>
+                <hr>
+            </section>
+            <section>
+                <h3>Bares</h3>
+                <img
+                    src="https://i0.wp.com/blog.vayacruceros.com/wp-content/uploads/2017/10/RCI_Jewel_SchoonerBar_3.jpg?w=600&ssl=1"
+                    alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Alias voluptatibus nihil nobis inventore. Officia, quisquam
+                    commodi fugit sunt recusandae debitis? Eum corrupti libero
+                    eligendi ducimus recusandae animi pariatur, obcaecati
+                    voluptas.
+                </p>
+                <hr>
+            </section>
+        </main>
+        <footer>
+            <a href="#">Instagram</a>
+            <a href="#">Whatsapp</a>
+            <a href="#">Facebook</a>
+        </footer>
+    </body>
 </html>
